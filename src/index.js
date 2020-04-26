@@ -5,10 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <h1>Hello,World!</h1>,
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // <h1>Hello,World!</h1>,
   document.getElementById('root')
 );
 
